@@ -1,0 +1,28 @@
+// PRINT REVERSE OF AN ARRAYLIST
+
+package lecture;
+import java.util.*;
+public class L_23_2 {
+
+	public static void main(String[] args) {
+		 ArrayList <Integer> list = new ArrayList <> ();
+		 list.add(1);
+		 list.add(2);
+		 list.add(3);
+		 list.add(4);
+		 list.add(5);
+		 
+		 int size = list.size();
+		 
+		 // printing reverse using for loop
+		 
+		 for (int i=size-1;i>=0;i--) {
+			 System.out.print(list.get(i));
+			 System.out.print(" ");
+		 }
+		 
+
+		 
+	}
+
+}
